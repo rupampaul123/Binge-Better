@@ -4,6 +4,7 @@ import GooeyNav from "../components/navbar/GooeyNav";
 import FlowingMenu from "../components/flowing menu/FlowingMenu";
 import Component from "../components/footer/footer";
 import { Link } from 'react-router-dom';
+import movieNight from './components/Movie Night-cuate.png';
 export default function Home(){
 
     const items = [
@@ -37,7 +38,7 @@ export default function Home(){
             />
         </div>
         <div style={{display :"flex", justifyContent: "space-around"}}>
-            <div><img src="./components\Movie Night-cuate.png" style={{height: "800px", }}/></div>
+            <div><img src={movieNight} style={{height: "800px", }}/></div>
             <div>
             <TrueFocus 
                 sentence="Binge Better"

@@ -3,6 +3,7 @@ import Searchbar from "../components/search bar/search";
 import Component from "../components/footer/footer";
 import GooeyNav from "../components/navbar/GooeyNav";
 import ChromaGrid  from "../components/card/ChromaGrid";
+import movieNight1 from './components/Movie Night-bro.png';
 import { useState } from "react";
 
 export default function Search1() {
@@ -77,7 +78,7 @@ export default function Search1() {
                 ease="power3.out"
             />
             <div>
-                <img src="./components\Movie Night-bro.png" style={{height: "700px", }}/>
+                <img src={movieNight1} style={{height: "700px", }}/>
             </div>
         </div>
         <div style={{marginTop:"100px"}}><Component /></div>
