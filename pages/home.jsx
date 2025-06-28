@@ -4,7 +4,7 @@ import GooeyNav from "../components/navbar/GooeyNav";
 import FlowingMenu from "../components/flowing menu/FlowingMenu";
 import Component from "../components/footer/footer";
 import { Link } from 'react-router-dom';
-import movieNight from './components/MovieNight-cuate.png';
+import movieNight from '../components/MovieNight-cuate.png';
 export default function Home(){
 
     const items = [

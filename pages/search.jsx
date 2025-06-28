@@ -3,7 +3,7 @@ import Searchbar from "../components/search bar/search";
 import Component from "../components/footer/footer";
 import GooeyNav from "../components/navbar/GooeyNav";
 import ChromaGrid  from "../components/card/ChromaGrid";
-import movieNight1 from './components/MovieNight-bro.png';
+import movieNight1 from '../components/MovieNight-bro.png';
 import { useState } from "react";
 
 export default function Search1() {
