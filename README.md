@@ -1,20 +1,108 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
+# 🎬 Binge Better
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Discover movies effortlessly with a sleek, responsive UI powered by React and the TMDb API.
 
-Currently, two official plugins are available:
+**Binge Better** is a modern movie discovery app that allows users to search for movies, browse trending titles, and view detailed movie information — all in a minimal and fast interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🌐 Live Demo](https://binge-better.vercel.app/)  
+[📦 GitHub Repo](https://github.com/your-username/binge-better)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Binge-Better
->>>>>>> e818930455d81646a82bd0661208fdaa3d7db83b
-=======
-# Binge-Better
->>>>>>> 0d7048d09650400d23f2279e1a483aa2206dd266
+## 📸 Screenshots
+
+| Home | Search | 
+|------|--------|
+| (![image](https://github.com/user-attachments/assets/b6c54e49-27d4-48ac-98de-400f9236ec8a) | (![image](https://github.com/user-attachments/assets/f1d2bb94-eda3-46a4-b198-5d90448e9210)
+
+
+
+---
+
+## 🚀 Features
+
+- 🔍 **Instant Search** – Search any movie by title
+- 📈 **Trending Feed** – Display trending or popular titles
+- 📄 **Movie Details Page** – Overview, ratings, posters, and more
+- 📱 **Responsive Design** – Mobile and desktop friendly
+- 🎭 **Fallback UI** – Placeholder images for missing posters
+- ⚡ **Fast & Lightweight** – Built with clean React components
+
+---
+
+## 🧰 Tech Stack
+
+| Tool/Library | Purpose |
+|--------------|---------|
+| **React** | Frontend framework |
+| **React Router DOM** | Routing for pages |
+| **TMDb API** | Movie data source |
+| **Tailwind CSS / SCSS** | Styling (based on what you used) |
+| **Vite** | Fast dev environment |
+| **Vercel** | Deployment |
+
+---
+
+## 🔧 Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/binge-better.git
+cd binge-better
+
+# 2. Install dependencies
+npm install
+
+# 3. Add your TMDb API key
+# Create a .env file in the root directory:
+
+# 4. Start the app
+npm run dev
+```
+
+## 📁 Folder Structure
+
+```bash
+binge-better/
+├── public/                      # Static assets and index.html
+│
+├── src/
+│   ├── assets/                  # Images, icons, fonts
+│   │   └── logo.png
+│   │
+│   ├── components/              # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── MovieCard.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   ├── pages/                   # Route-based views
+│   │   ├── Home.jsx
+│   │   ├── Search.jsx
+│   │   └── MovieDetails.jsx
+│   │
+│   ├── utils/                   # Helper functions, constants
+│   │   └── api.js
+│   │
+│   ├── App.jsx                  # Root component with routes
+│   ├── main.jsx                 # ReactDOM.render and setup
+│   └── index.css                # Global styles
+
+```
+
+
+
+## 📌 Future Improvements
+
+
+🎬 Filter by genres, language, or release date
+
+🧾 Pagination or infinite scroll
+
+💾 Add to Watchlist (localStorage or Firebase)
+
+🌓 Dark Mode toggle
+
+🧪 Unit testing with React Testing Library
+
+## 🙋‍♂️ Author
+Made with ❤️ by Rupam Paul
